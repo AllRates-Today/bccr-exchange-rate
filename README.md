@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'CRC', { apiKey: 'art_live_...' });
 {
   bank: 'bccr',
   name: 'Banco Central de Costa Rica',
-  rate_date: '2026-09-09',   // Banco Central de Costa Rica's own publication date
+  rate_date: '2026-09-25',   // Banco Central de Costa Rica's own publication date
   source: 'USD',
   target: 'CRC',
-  rate: 452.56,
+  rate: 454.15,
   rate_type: 'sell',
   derived: false,
   method: 'published',
@@ -113,10 +113,10 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'bccr',
   name: 'Banco Central de Costa Rica',
-  rate_date: '2026-09-09',
+  rate_date: '2026-09-25',
   rates: [
-    { "base": "USD", "quote": "CRC", "type": "sell", "value": 452.56 },
-    { "base": "USD", "quote": "CRC", "type": "buy", "value": 447.83 },
+    { "base": "USD", "quote": "CRC", "type": "sell", "value": 454.15 },
+    { "base": "USD", "quote": "CRC", "type": "buy", "value": 450.87 },
     // … the rest of the published table (2 currencies vs CRC)
   ],
   disclaimer: '…'
@@ -156,7 +156,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'bccr-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'CRC', from: '2026-01-01', to: '2026-09-09' },
+  { source: 'USD', target: 'CRC', from: '2026-01-01', to: '2026-09-25' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -169,11 +169,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'CRC',
   from: '2026-01-01',
-  to: '2026-09-09',
+  to: '2026-09-25',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-09', rate: 452.56, rate_type: 'sell', derived: false, method: 'published' },
+    { date: '2026-09-25', rate: 454.15, rate_type: 'sell', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
