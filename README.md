@@ -40,12 +40,12 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 Today's full Banco Central de Costa Rica table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-08** by Banco Central de Costa Rica — 2 rates. Updated 2026-10-08.
+Published **2026-10-09** by Banco Central de Costa Rica — 2 rates. Updated 2026-10-09.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| USD | CRC | buy | 450.81 |
-| USD | CRC | sell | 457.03 |
+| USD | CRC | buy | 452.61 |
+| USD | CRC | sell | 456.61 |
 
 Source: [Official rates published by BCCR, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bccr/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
