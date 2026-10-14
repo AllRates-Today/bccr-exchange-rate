@@ -1,6 +1,6 @@
 {
   "name": "bccr-exchange-rate",
-  "version": "1.3.10",
+  "version": "1.3.12",
   "description": "Official Banco Central de Costa Rica (Costa Rica) daily exchange rates — 2 currencies vs CRC, current table, archive from 2026. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "bccr",
@@ -11,6 +11,8 @@
     "rica",
     "exchange-rate",
     "exchange-rates",
+    "exchangerate",
+    "exchange rate",
     "crc-exchange-rate",
     "currency",
     "forex",
