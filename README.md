@@ -47,13 +47,13 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-19 by Banco Central de Costa Rica — 3 rates. Updated 2026-10-20.</summary>
+<summary>Table as text: published 2026-10-20 by Banco Central de Costa Rica — 3 rates. Updated 2026-10-20.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| EUR | CRC | reference | 508.94 |
-| USD | CRC | buy | 448.31 |
-| USD | CRC | sell | 453.48 |
+| EUR | CRC | reference | 509.48 |
+| USD | CRC | buy | 448.07 |
+| USD | CRC | sell | 453.56 |
 
 </details>
 
