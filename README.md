@@ -31,18 +31,7 @@ Get a free API key at [allratestoday.com/register](https://allratestoday.com/reg
 The image is rendered live from the keyless endpoint, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-<details>
-<summary>Table as text: published 2026-11-13 by Banco Central de Costa Rica — 3 rates. Updated 2026-11-13.</summary>
-
-| Base | Quote | Type | Rate |
-| --- | --- | --- | ---: |
-| EUR | CRC | reference | 495.72 |
-| USD | CRC | buy | 442.74 |
-| USD | CRC | sell | 448.37 |
-
-</details>
-
-Source: [Official rates published by BCCR, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bccr/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+_The table is filled in by the daily workflow._
 <!-- daily-table:end -->
 
 ## 📦 Installation
